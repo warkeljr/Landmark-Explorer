@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0109FCE81F0A53F30054790A /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109FCE71F0A53F30054790A /* FloatingActionButton.swift */; };
+		018C16B11EF9C2C10035FFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C16B01EF9C2C10035FFB7 /* Constants.swift */; };
+		019F5AF71F0CEE6F006425A1 /* PencilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F5AF61F0CEE6F006425A1 /* PencilVC.swift */; };
+		01AC67F71EF70ADB0073F06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC67F61EF70ADB0073F06A /* AppDelegate.swift */; };
+		01AC67FC1EF70ADB0073F06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AC67FA1EF70ADB0073F06A /* Main.storyboard */; };
+		01AC67FF1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AC67FD1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld */; };
+		01AC68011EF70ADC0073F06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AC68001EF70ADC0073F06A /* Assets.xcassets */; };
+		01AC68041EF70ADC0073F06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AC68021EF70ADC0073F06A /* LaunchScreen.storyboard */; };
+		01AC68111EF7AC590073F06A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68101EF7AC590073F06A /* TableViewController.swift */; };
+		01AC68131EF7AC730073F06A /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68121EF7AC730073F06A /* CustomTableCell.swift */; };
+		01AC68151EF7AC8E0073F06A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68141EF7AC8E0073F06A /* DetailViewController.swift */; };
+		01AC682B1EF803830073F06A /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68211EF803830073F06A /* UIButtonX.swift */; };
+		01AC682C1EF803830073F06A /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68221EF803830073F06A /* UIImageViewX.swift */; };
+		01AC682D1EF803830073F06A /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68231EF803830073F06A /* UILabelX.swift */; };
+		01AC682E1EF803830073F06A /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68241EF803830073F06A /* UISliderX.swift */; };
+		01AC682F1EF803830073F06A /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68251EF803830073F06A /* UITextFieldX.swift */; };
+		01AC68301EF803830073F06A /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68261EF803830073F06A /* UIViewAnchorPoint.swift */; };
+		01AC68311EF803830073F06A /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68271EF803830073F06A /* UIViewControllerX.swift */; };
+		01AC68321EF803830073F06A /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68281EF803830073F06A /* UIViewX.swift */; };
+		01AC68331EF803830073F06A /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC68291EF803830073F06A /* UIViewXRadialGradient.swift */; };
+		01AC68341EF803830073F06A /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC682A1EF803830073F06A /* UIVisualEffectViewX.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0109FCE71F0A53F30054790A /* FloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		018C16B01EF9C2C10035FFB7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		019F5AF61F0CEE6F006425A1 /* PencilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilVC.swift; sourceTree = "<group>"; };
+		01AC67F31EF70ADB0073F06A /* landmarkExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landmarkExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AC67F61EF70ADB0073F06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01AC67FB1EF70ADB0073F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01AC67FE1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = landmarkExplorerTableView.xcdatamodel; sourceTree = "<group>"; };
+		01AC68001EF70ADC0073F06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01AC68031EF70ADC0073F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01AC68051EF70ADC0073F06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AC68101EF7AC590073F06A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		01AC68121EF7AC730073F06A /* CustomTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		01AC68141EF7AC8E0073F06A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		01AC68211EF803830073F06A /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		01AC68221EF803830073F06A /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		01AC68231EF803830073F06A /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		01AC68241EF803830073F06A /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		01AC68251EF803830073F06A /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		01AC68261EF803830073F06A /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		01AC68271EF803830073F06A /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		01AC68281EF803830073F06A /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		01AC68291EF803830073F06A /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		01AC682A1EF803830073F06A /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AC67F01EF70ADB0073F06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018C16B21EF9C35D0035FFB7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				018C16B01EF9C2C10035FFB7 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		01AC67EA1EF70ADB0073F06A = {
+			isa = PBXGroup;
+			children = (
+				01AC67F51EF70ADB0073F06A /* landmarkExplorerTableView */,
+				01AC67F41EF70ADB0073F06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AC67F41EF70ADB0073F06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AC67F31EF70ADB0073F06A /* landmarkExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AC67F51EF70ADB0073F06A /* landmarkExplorerTableView */ = {
+			isa = PBXGroup;
+			children = (
+				018C16B21EF9C35D0035FFB7 /* Constants */,
+				01AC681A1EF7ACC70073F06A /* Utils */,
+				01AC68191EF7ACB90073F06A /* Designables */,
+				01AC68181EF7ACA90073F06A /* Controller */,
+				01AC68171EF7ACA00073F06A /* View */,
+				01AC680B1EF710690073F06A /* Model */,
+				01AC67F61EF70ADB0073F06A /* AppDelegate.swift */,
+				01AC67FA1EF70ADB0073F06A /* Main.storyboard */,
+				01AC68001EF70ADC0073F06A /* Assets.xcassets */,
+				01AC68021EF70ADC0073F06A /* LaunchScreen.storyboard */,
+				01AC68051EF70ADC0073F06A /* Info.plist */,
+				01AC67FD1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld */,
+			);
+			path = landmarkExplorerTableView;
+			sourceTree = "<group>";
+		};
+		01AC680B1EF710690073F06A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01AC68171EF7ACA00073F06A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01AC68101EF7AC590073F06A /* TableViewController.swift */,
+				01AC68121EF7AC730073F06A /* CustomTableCell.swift */,
+				01AC68141EF7AC8E0073F06A /* DetailViewController.swift */,
+				0109FCE71F0A53F30054790A /* FloatingActionButton.swift */,
+				019F5AF61F0CEE6F006425A1 /* PencilVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		01AC68181EF7ACA90073F06A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01AC68191EF7ACB90073F06A /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				01AC68211EF803830073F06A /* UIButtonX.swift */,
+				01AC68221EF803830073F06A /* UIImageViewX.swift */,
+				01AC68231EF803830073F06A /* UILabelX.swift */,
+				01AC68241EF803830073F06A /* UISliderX.swift */,
+				01AC68251EF803830073F06A /* UITextFieldX.swift */,
+				01AC68261EF803830073F06A /* UIViewAnchorPoint.swift */,
+				01AC68271EF803830073F06A /* UIViewControllerX.swift */,
+				01AC68281EF803830073F06A /* UIViewX.swift */,
+				01AC68291EF803830073F06A /* UIViewXRadialGradient.swift */,
+				01AC682A1EF803830073F06A /* UIVisualEffectViewX.swift */,
+			);
+			name = Designables;
+			sourceTree = "<group>";
+		};
+		01AC681A1EF7ACC70073F06A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AC67F21EF70ADB0073F06A /* landmarkExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AC68081EF70ADC0073F06A /* Build configuration list for PBXNativeTarget "landmarkExplorer" */;
+			buildPhases = (
+				01AC67EF1EF70ADB0073F06A /* Sources */,
+				01AC67F01EF70ADB0073F06A /* Frameworks */,
+				01AC67F11EF70ADB0073F06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = landmarkExplorer;
+			productName = landmarkExplorerTableView;
+			productReference = 01AC67F31EF70ADB0073F06A /* landmarkExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AC67EB1EF70ADB0073F06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "W.S. van Arkel jr.";
+				TargetAttributes = {
+					01AC67F21EF70ADB0073F06A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = QUF74GRPF3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01AC67EE1EF70ADB0073F06A /* Build configuration list for PBXProject "landmarkExplorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01AC67EA1EF70ADB0073F06A;
+			productRefGroup = 01AC67F41EF70ADB0073F06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AC67F21EF70ADB0073F06A /* landmarkExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AC67F11EF70ADB0073F06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC68041EF70ADC0073F06A /* LaunchScreen.storyboard in Resources */,
+				01AC68011EF70ADC0073F06A /* Assets.xcassets in Resources */,
+				01AC67FC1EF70ADB0073F06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AC67EF1EF70ADB0073F06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC68131EF7AC730073F06A /* CustomTableCell.swift in Sources */,
+				01AC67FF1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld in Sources */,
+				01AC68341EF803830073F06A /* UIVisualEffectViewX.swift in Sources */,
+				01AC682B1EF803830073F06A /* UIButtonX.swift in Sources */,
+				01AC68311EF803830073F06A /* UIViewControllerX.swift in Sources */,
+				01AC682E1EF803830073F06A /* UISliderX.swift in Sources */,
+				01AC67F71EF70ADB0073F06A /* AppDelegate.swift in Sources */,
+				018C16B11EF9C2C10035FFB7 /* Constants.swift in Sources */,
+				0109FCE81F0A53F30054790A /* FloatingActionButton.swift in Sources */,
+				01AC682C1EF803830073F06A /* UIImageViewX.swift in Sources */,
+				01AC68301EF803830073F06A /* UIViewAnchorPoint.swift in Sources */,
+				01AC68151EF7AC8E0073F06A /* DetailViewController.swift in Sources */,
+				01AC68111EF7AC590073F06A /* TableViewController.swift in Sources */,
+				01AC68331EF803830073F06A /* UIViewXRadialGradient.swift in Sources */,
+				01AC68321EF803830073F06A /* UIViewX.swift in Sources */,
+				019F5AF71F0CEE6F006425A1 /* PencilVC.swift in Sources */,
+				01AC682F1EF803830073F06A /* UITextFieldX.swift in Sources */,
+				01AC682D1EF803830073F06A /* UILabelX.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01AC67FA1EF70ADB0073F06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AC67FB1EF70ADB0073F06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01AC68021EF70ADC0073F06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AC68031EF70ADC0073F06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01AC68061EF70ADC0073F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01AC68071EF70ADC0073F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AC68091EF70ADC0073F06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUF74GRPF3;
+				INFOPLIST_FILE = landmarkExplorerTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warcode.landmarkExplorerTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01AC680A1EF70ADC0073F06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUF74GRPF3;
+				INFOPLIST_FILE = landmarkExplorerTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.warcode.landmarkExplorerTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AC67EE1EF70ADB0073F06A /* Build configuration list for PBXProject "landmarkExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AC68061EF70ADC0073F06A /* Debug */,
+				01AC68071EF70ADC0073F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AC68081EF70ADC0073F06A /* Build configuration list for PBXNativeTarget "landmarkExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AC68091EF70ADC0073F06A /* Debug */,
+				01AC680A1EF70ADC0073F06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01AC67FD1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01AC67FE1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodel */,
+			);
+			currentVersion = 01AC67FE1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodel */;
+			path = landmarkExplorerTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01AC67EB1EF70ADB0073F06A /* Project object */;
+}

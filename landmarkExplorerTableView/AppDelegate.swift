@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+//        let navigationBarAppearace = UINavigationBar.appearance()
+//        navigationBarAppearace.tintColor = UIColor.white
+//        navigationBarAppearace.barTintColor = UIColor.init(colorLiteralRed: 15/255, green: 15/255, blue: 15/255, alpha: 0.3)
+//        navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+//        //navigationBarAppearace.backItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+//        navigationBarAppearace.backItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+       
         return true
     }
 
