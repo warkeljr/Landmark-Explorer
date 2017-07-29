@@ -10,8 +10,11 @@ import UIKit
 
 class FloatingActionButton: UIButtonX {
     
+    
     override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
-
+        
+        
+        
         UIView.animate(withDuration: 0.3, animations: {
             
             if self.transform == .identity {
@@ -19,7 +22,7 @@ class FloatingActionButton: UIButtonX {
                 self.backgroundColor = #colorLiteral(red: 0.0588, green: 0.0588, blue: 0.0588, alpha: 1) /* #0f0f0f */
              } else {
                  self.transform = .identity
-                self.backgroundColor = #colorLiteral(red: 1, green: 0.1725, blue: 0.5529, alpha: 1) /* #ff2c8d */
+                self.backgroundColor = #colorLiteral(red: 0.8793547153, green: 0.3272255659, blue: 0.3957415819, alpha: 1) /* #ff2c8d */
             }
         })
         

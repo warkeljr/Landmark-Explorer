@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0109FCE81F0A53F30054790A /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109FCE71F0A53F30054790A /* FloatingActionButton.swift */; };
+		014FF72F1F248C0A0049CE1D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014FF72E1F248C0A0049CE1D /* MapView.swift */; };
 		018C16B11EF9C2C10035FFB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C16B01EF9C2C10035FFB7 /* Constants.swift */; };
 		019F5AF71F0CEE6F006425A1 /* PencilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F5AF61F0CEE6F006425A1 /* PencilVC.swift */; };
+		019F5AF91F1A1000006425A1 /* SegmentedControlX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019F5AF81F1A0FFF006425A1 /* SegmentedControlX.swift */; };
 		01AC67F71EF70ADB0073F06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC67F61EF70ADB0073F06A /* AppDelegate.swift */; };
 		01AC67FC1EF70ADB0073F06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AC67FA1EF70ADB0073F06A /* Main.storyboard */; };
 		01AC67FF1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AC67FD1EF70ADB0073F06A /* landmarkExplorerTableView.xcdatamodeld */; };
@@ -32,8 +34,10 @@
 
 /* Begin PBXFileReference section */
 		0109FCE71F0A53F30054790A /* FloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		014FF72E1F248C0A0049CE1D /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		018C16B01EF9C2C10035FFB7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		019F5AF61F0CEE6F006425A1 /* PencilVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PencilVC.swift; sourceTree = "<group>"; };
+		019F5AF81F1A0FFF006425A1 /* SegmentedControlX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlX.swift; sourceTree = "<group>"; };
 		01AC67F31EF70ADB0073F06A /* landmarkExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = landmarkExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AC67F61EF70ADB0073F06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AC67FB1EF70ADB0073F06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				01AC68141EF7AC8E0073F06A /* DetailViewController.swift */,
 				0109FCE71F0A53F30054790A /* FloatingActionButton.swift */,
 				019F5AF61F0CEE6F006425A1 /* PencilVC.swift */,
+				014FF72E1F248C0A0049CE1D /* MapView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				01AC68281EF803830073F06A /* UIViewX.swift */,
 				01AC68291EF803830073F06A /* UIViewXRadialGradient.swift */,
 				01AC682A1EF803830073F06A /* UIVisualEffectViewX.swift */,
+				019F5AF81F1A0FFF006425A1 /* SegmentedControlX.swift */,
 			);
 			name = Designables;
 			sourceTree = "<group>";
@@ -250,6 +256,8 @@
 				01AC68321EF803830073F06A /* UIViewX.swift in Sources */,
 				019F5AF71F0CEE6F006425A1 /* PencilVC.swift in Sources */,
 				01AC682F1EF803830073F06A /* UITextFieldX.swift in Sources */,
+				014FF72F1F248C0A0049CE1D /* MapView.swift in Sources */,
+				019F5AF91F1A1000006425A1 /* SegmentedControlX.swift in Sources */,
 				01AC682D1EF803830073F06A /* UILabelX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

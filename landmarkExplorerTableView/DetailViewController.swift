@@ -13,10 +13,12 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var detailImageView: UIImageView!
     @IBOutlet weak var detailTittleLabel: UILabel!
+    @IBOutlet weak var detailInfoTextView: UITextView!
     @IBOutlet weak var menuView: UIViewX!
     @IBOutlet weak var pencilBtn: UIButton!
     @IBOutlet weak var alarmClockBtn: UIButton!
     @IBOutlet weak var chatBalloonBtn: UIButton!
+    @IBOutlet weak var detailMapView: MKMapView!
     
     var detailImageViewData: String!
     var detailTittleLabelData: String!
@@ -25,15 +27,15 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+        
         self.navigationItem.title = detailTittleLabelData
-        //self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        
-        
         detailImageView.image = UIImage(named: detailImageViewData)
         detailTittleLabel.text = detailTittleLabelData
         
         self.menuSize()
-        
         
         let tapGestureRocognizer = UITapGestureRecognizer(target: self, action: #selector(DetailViewController.menuViewTapped(recognizer:)))
         
@@ -50,6 +52,12 @@ class DetailViewController: UIViewController {
         
         detailImageView.layer.add(opAnimation, forKey: "opacity")
         detailTittleLabel.layer.add(opAnimation, forKey: "opacity")
+
+        detailTittleLabel.layer.cornerRadius = 7
+        detailTittleLabel.layer.masksToBounds = true
+        detailInfoTextView.layer.cornerRadius = 7
+        detailImageView.layer.cornerRadius = 7
+        detailMapView.layer.cornerRadius = 7
         
     }
     
@@ -64,10 +72,10 @@ class DetailViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
     
     // MARK: - Setup directions
-    
     
     @IBAction func menuTapped(_ sender: Any) {
         
